@@ -130,6 +130,10 @@
     <ClCompile Include="main.c" />
     <ClCompile Include="portAudioFunctions.c" />
     <ClCompile Include="portAudioFunctions.h" />
+    <ClCompile Include="terminalFunctions.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="terminalFunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

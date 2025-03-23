@@ -45,7 +45,7 @@ int main() {
     int inputDevice = setDevice();
     double sampleRate = Pa_GetDeviceInfo(inputDevice)->defaultSampleRate;
     streamCallbackData* spectroData = allocateSpectroMemory(sampleRate);
-    //system("CLS");
+    
     clear_screen();
     PaStreamParameters inputParameters;
 

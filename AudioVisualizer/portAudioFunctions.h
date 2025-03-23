@@ -1,11 +1,10 @@
 #ifndef _AUDIOFUNCTIONS
 #define _AUDIOFUNCTIONS
 #include <portaudio.h>
-#include <stdlib.h>
-#include <stdio.h>
+
 #include <fftw3.h>
-#include <math.h>
-#include <windows.h>
+#include "terminalFunctions.h"
+
 
 #define FRAMES_PER_BUFFER 512
 #define NUM_CHANNELS 2
