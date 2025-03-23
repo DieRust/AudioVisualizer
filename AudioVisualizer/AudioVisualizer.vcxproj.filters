@@ -18,5 +18,11 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="portAudioFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="portAudioFunctions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
